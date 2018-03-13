@@ -1,6 +1,6 @@
 import './navbar.html';
 
-Template.navbar.onCreated(function helloOnCreated() {
+Template.navbar.onCreated(function navbarOnCreated() {
   console.log("Navbar created...");
 });
 
