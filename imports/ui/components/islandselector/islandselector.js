@@ -5,8 +5,10 @@ Template.islandselector.onCreated(function navbarOnCreated() {
   //Stores the current island src index
   this.currentIsland = new ReactiveVar(0);
 
-  //Initializes the currentIslandSrc placehoder with given src
+  //Loads the first island
   this.currentIslandSrc = new ReactiveVar("/img/terceira.png");
+
+  //Loads the first island title
   this.title = new ReactiveVar("Terceira");
 
 });
@@ -17,6 +19,10 @@ Template.islandselector.helpers({
   },
 
   title() {
+    return Template.instance().title.get();
+  },
+
+  about() {
     return Template.instance().title.get();
   },
 });
@@ -32,14 +38,14 @@ Template.islandselector.events({
     const ISLANDS_EXTENSION = "png";
 
     const ISLANDS = [{title:"Terceira", name:"terceira"},
-                    {title:"S.Miguel",name:"saomiguel"},
-                    {title:"S.Jorge",name:"saojorge"},
-                    {title:"Santa Maria",name:"santamaria"},
-                    {title:"Pico",name:"pico"},
-                    {title:"Graciosa",name:"graciosa"},
-                    {title:"Flores",name:"flores"},
-                    {title:"Faial",name:"faial"},
-                    {title:"Corvo",name:"corvo"}]
+                    {title:"S.Miguel", name:"saomiguel"},
+                    {title:"S.Jorge", name:"saojorge"},
+                    {title:"Santa Maria", name:"santamaria"},
+                    {title:"Pico", name:"pico"},
+                    {title:"Graciosa", name:"graciosa"},
+                    {title:"Flores", name:"flores"},
+                    {title:"Faial", name:"faial"},
+                    {title:"Corvo", name:"corvo"}];
 
     const LAST_ISLAND = 8;
     const FIRST_ISLAND = 0;
