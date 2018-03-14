@@ -1,14 +1,23 @@
 <template name="thread">
 
   <div class="col s12 center">
-    <span class="indigo-text">Title</span>
     <img src="/img/terceira.png" class="thread responsive-img" alt="">
   </div>
+
     <div class="container">
+        <span class="indigo-text"></span>
         <form id="postForm" class="form-horizontal" role="form">
-            <input type="text" name="title" placeholder="Add title">
-            <input type="text" name="body" placeholder="Add comment">
+            <input type="text" name="title" placeholder="Add post title">
+            <input type="text" name="body" placeholder="Add post body">
         </form>
     </div>
+
+    <div class="col s11 right">
+        <a class="waves-effect waves-light btn">{{_ 'upload_pic'}}<i class="material-icons left"></i></a>
+        <button class="btn waves-effect waves-light dark-blue" type="submit" name="action">
+            {{_ 'submit_post'}}<i class="material-icons right send"></i>
+        </button>
+    </div>
+
 
 </template>

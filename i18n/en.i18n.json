@@ -4,6 +4,9 @@
   "signUp" : "Sign up",
   "signIn" : "Sign in",
   "logout" : "logout",
+  "submit_post" : "Submit Post",
+  "upload_pic" : "Upload Picture",
+
   "island_gallery" : "%s's Gallery",
 
   "enter" : "Enter",
