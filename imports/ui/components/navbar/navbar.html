@@ -1,13 +1,12 @@
 <template name="navbar">
-
   <nav class="indigo">
         <div class="nav-wrapper">
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <ul id="nav-mobile" class="left">
                   <!-- todo -->
-                  {{> Auth}}
-                  {{> Lang}}
+                  <div class="col s12 center"><li>{{> Auth}}</li></div>
 
-                  {{_ 'Example'}}
+                  <li>{{> Lang}}</li>
+                  <li>{{_ 'Example'}}</li>
               </ul>
          </div>
    </nav>
