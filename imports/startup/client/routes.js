@@ -19,7 +19,7 @@ FlowRouter.route('/', {
 FlowRouter.route('/terceira', {
      name: 'App.terceira',
      action() {
-          BlazeLayout.render('App_body',{main: 'App_terceira'});
+          BlazeLayout.render('App_body', {main: 'App_terceira'});
      },
 });
 
