@@ -1,10 +1,12 @@
 <template name="navbar">
+
   <nav class="indigo">
         <div class="nav-wrapper container">
               <ul id="nav-mobile" class="">
                   <div class="col s6 left hide-on-med-and-down">
                     <li class="left">
-                      <h5 class="center "> Welcome to <strong> azores4tourists!</strong> </h5>
+                        {{> Auth}}
+                      <h5 class="center "> {{_ 'welcome_to'}} <strong>Azores4Tourists!</strong></h5>
                     </li>
                   </div>
                   <li class="right">

@@ -1,11 +1,39 @@
 {
+  "welcome_to" : "Bem-vindo ao ",
   "Language" : "Idioma",
-  "headerText" : "Tenho de colocar um título",
-  "title" : "Welcome to Meteor!",
-  "signUp" : "Sign up",
-  "signIn" : "Sign in",
-  "logout" : "logout",
-  "Corvo" : "A Ilha do Corvo é a mais pequena e a mais setentrional do arquipélago dos Açores. Localiza-se no Grupo Ocidental, a 6 milhas náuticas a norte da Ilha das Flores. Situa-se a 39º 40’ na latitude norte e 31° 05’ de longitude oeste. Ocupa uma superfície total de 17,12 Km2, com 6,5 Km de comprimento por 4 Km de largura. A Vila do Corvo, única povoação da ilha, é sede do município do mesmo nome.Em 1987, as funções dos órgãos de freguesia foram assumidas pelos correspondentes órgãos municipais. Artigo 86 do Estatuto Político Administrativo dos Açores)"
+  "signUp" : "Inscrever-se",
+  "signIn" : "Entrar",
+  "logout" : "Sair",
+
+  "enter" : "Entrar",
+
+  "about_island_text" :
+  {
+    "corvo": "A Ilha do Corvo é a mais pequena e a mais setentrional do arquipélago dos Açores. Localiza-se no Grupo Ocidental, a 6 milhas náuticas a norte da Ilha das Flores. Situa-se a 39º 40’ na latitude norte e 31° 05’ de longitude oeste. Ocupa uma superfície total de 17,12 Km2, com 6,5 Km de comprimento por 4 Km de largura. A Vila do Corvo, única povoação da ilha, é sede do município do mesmo nome.Em 1987, as funções dos órgãos de freguesia foram assumidas pelos correspondentes órgãos municipais. Artigo 86 do Estatuto Político Administrativo dos Açores)",
+    "flores" : "",
+    "faial" : "",
+    "saojorge" : "",
+    "pico" : "",
+    "graciosa" : "",
+    "terceira" : "A Terceira é uma das nove ilhas dos Açores, integrante do chamado \"Grupo Central\". Primitivamente denominada como Ilha de Nosso Senhor Jesus Cristo das Terceiras, foi em tempos o centro administrativo das Ilhas Terceiras, como era designado o arquipélago dos Açores. A designação Terceiras aplicava-se a todo o arquipélago do Açores visto terem sido as terceiras ilhas descobertas no Atlântico (o arquipélago das Canárias era designado de Ilhas Primeiras e o arquipélago da Madeira por Ilhas Segundas, segundo a ordem cronológica de Descoberta). Com o avançar dos anos esta ilha passou a ser conhecida apenas por Ilha Terceira.",
+    "saomiguel" : "",
+    "santamaria" : ""
+  },
+
+  "about_island_title" :
+  {
+    "corvo": "Sobre a Ilha do Corvo",
+    "flores" : "Sobre a Ilha das Flores",
+    "faial" : "Sobre a Ilha do Faial",
+    "saojorge" : "Sobre a Ilha de São Jorge",
+    "pico" : "Sobre a Ilha do Pico",
+    "graciosa" : "Sobre a Ilha da Graciosa",
+    "terceira" : "Sobre a Ilha Terceira",
+    "saomiguel" : "Sobre a Ilha de São Miguel",
+    "santamaria" : "Sobre a Ilha de Santa Maria"
+  },
+
+  "footer_text" : "Neste sítio você poderá explorar a vasta beleza das ilhas açorianas através das galerias que são alimentadas pelas fotografias dos turistas que visitam os Açores ou até pelos residentes. Divirta-se!"
 
 
 }

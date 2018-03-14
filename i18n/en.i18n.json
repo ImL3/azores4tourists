@@ -1,9 +1,38 @@
 {
+  "welcome_to" : "Welcome to ",
   "Language" : "Language",
-  "headerText" : "I must put a title",
-  "title" : "Welcome to Meteor!",
   "signUp" : "Sign up",
   "signIn" : "Sign in",
   "logout" : "logout",
-  "Corvo" : "A Ilha do Corvo é a mais pequena e a mais setentrional do arquipélago dos Açores. Localiza-se no Grupo Ocidental, a 6 milhas náuticas a norte da Ilha das Flores. Situa-se a 39º 40’ na latitude norte e 31° 05’ de longitude oeste. Ocupa uma superfície total de 17,12 Km2, com 6,5 Km de comprimento por 4 Km de largura. A Vila do Corvo, única povoação da ilha, é sede do município do mesmo nome.Em 1987, as funções dos órgãos de freguesia foram assumidas pelos correspondentes órgãos municipais. Artigo 86 do Estatuto Político Administrativo dos Açores)"
+
+  "enter" : "Enter",
+
+  "about_island_text" :
+  {
+    "corvo": "A Ilha do Corvo é a mais pequena e a mais setentrional do arquipélago dos Açores. Localiza-se no Grupo Ocidental, a 6 milhas náuticas a norte da Ilha das Flores. Situa-se a 39º 40’ na latitude norte e 31° 05’ de longitude oeste. Ocupa uma superfície total de 17,12 Km2, com 6,5 Km de comprimento por 4 Km de largura. A Vila do Corvo, única povoação da ilha, é sede do município do mesmo nome.Em 1987, as funções dos órgãos de freguesia foram assumidas pelos correspondentes órgãos municipais. Artigo 86 do Estatuto Político Administrativo dos Açores)",
+    "flores" : "",
+    "faial" : "",
+    "saojorge" : "",
+    "pico" : "",
+    "graciosa" : "",
+    "terceira" : "",
+    "saomiguel" : "",
+    "santamaria" : ""
+  },
+
+  "about_island_title" :
+  {
+    "corvo": "About Corvo Island",
+    "flores" : "About Flores Island",
+    "faial" : "About Faial Island",
+    "saojorge" : "About São Jorge Island",
+    "pico" : "About Pico Island",
+    "graciosa" : "About Graciosa Island",
+    "terceira" : "About Terceira Island",
+    "saomiguel" : "About São Miguel Island",
+    "santamaria" : "About Santa Maria Island"
+  },
+
+  "footer_text" : "In this website you can explore the vast beauty of Azores islands by taking a look into the gallery, which is maintained by the photos of tourists who visit the islands or even by the local people. Have fun!"
+
 }

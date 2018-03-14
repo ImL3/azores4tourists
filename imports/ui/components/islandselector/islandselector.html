@@ -1,38 +1,35 @@
 <template name="islandselector">
 
-  <div class="container center">
-    <div class="row">
-      <h1 class="col s12 indigo-text">{{title}}</h1>
+    <div class="container center">
+        <div class="row">
+            <h1 class="col s12 indigo-text">{{title}}</h1>
+        </div>
+        <div class="row">
+            <div class="col s3 arrow-left">
+                <img class="responsive-img" src="/img/arrow_left.png" alt="">
+            </div>
+            <div class="col s6">
+                <img class="responsive-img island" src="{{currentIsland}}" name="{{name}}" alt="">
+            </div>
+            <div class="col s3 arrow-right">
+                <img class="responsive-img" src="/img/arrow_right.png" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <a class="waves-effect waves-light btn-large green enter">{{_ 'enter'}}</a>
+        </div>
+
+        <div class="row">
+            <div class="col s12 indigo-text">
+                <div class="divider indigo"></div>
+                <h4>{{aboutTitle}}</h4>
+                <span class="col s12 black-text">
+                    {{aboutText}}
+                </span>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col s3 arrow-left">
-        <img class="responsive-img" src="/img/arrow_left.png" alt="">
-      </div>
-      <div class="col s6">
-        <img class="responsive-img island" src="{{currentIsland}}" name="{{name}}" alt="">
-      </div>
-      <div class="col s3 arrow-right">
-        <img class="responsive-img" src="/img/arrow_right.png" alt="">
-      </div>
-    </div>
-
-    <div class="row">
-      <a class="waves-effect waves-light btn-large green enter">Enter</a>
-    </div>
-
-
-    <div class="row">
-      <div class="col s12 indigo-text">
-        <div class="divider indigo"></div>
-        <h4>About {{title}} island</h4>
-        <span class="col s12 black-text">
-            {{_ 'Corvo'}}
-        </span>
-      </div>
-    </div>
-  </div>
-
-
 
 
 </template>
