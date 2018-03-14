@@ -1,3 +1,3 @@
-import './terceira.html';
+import './pico.html';
 
 import '../../components/header/header.js'

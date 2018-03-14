@@ -35,9 +35,8 @@ Template.islandselector.helpers({
 
 Template.islandselector.events({
   'click .enter'(event, instance) {
-    let islandName = instance.currentIsland;
-    console.log(islandName);
-    FlowRouter.go("/" + islandName );
+    let islandName = instance.name.get();
+    FlowRouter.go("/" + islandName);
 
   },
 
@@ -73,7 +72,7 @@ Template.islandselector.events({
     currentIslandSrc.set(ISLANDS_PATH + '/' + ISLANDS[currentIsland.get()].name + "." + ISLANDS_EXTENSION);
     currentTitle.set( ISLANDS[currentIsland.get()].title);
        currentName.set(ISLANDS[currentIsland.get()].name);
-       console.log("name:",currentName.get());
+
 
   },
 
@@ -97,6 +96,7 @@ Template.islandselector.events({
     const currentIsland = instance.currentIsland;
     const currentIslandSrc = instance.currentIslandSrc;
     const currentTitle = instance.title;
+       const currentName = instance.name;
 
     if(currentIsland.get() === LAST_ISLAND) {
       currentIsland.set(FIRST_ISLAND);
@@ -107,6 +107,7 @@ Template.islandselector.events({
 
     currentIslandSrc.set(ISLANDS_PATH + '/' + ISLANDS[currentIsland.get()].name + "." + ISLANDS_EXTENSION);
     currentTitle.set( ISLANDS[currentIsland.get()].title);
+       currentName.set(ISLANDS[currentIsland.get()].name);
   },
 
   'mouseexit .arrow-left'(event, instance) {

@@ -1,3 +1,3 @@
-import './terceira.html';
+import './graciosa.html';
 
 import '../../components/header/header.js'
