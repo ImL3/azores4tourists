@@ -14,7 +14,6 @@ Template.islandselector.onCreated(function navbarOnCreated() {
      //Loads the first island title
      this.title = new ReactiveVar("Terceira");
 
-     // this.aboutText = new ReactiveVar("awewe");
 });
 
 Template.islandselector.helpers({

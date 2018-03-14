@@ -2,7 +2,7 @@
 
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Links } from './threads.js';
+import { Threads } from './threads.js';
 
 Meteor.methods({
   'threads.insert'(title, url) {

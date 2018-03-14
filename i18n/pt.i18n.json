@@ -1,9 +1,10 @@
 {
-  "welcome_to" : "Bem-vindo ao ",
+  "welcome_to" : "Bem-vindo a ",
   "Language" : "Idioma",
   "signUp" : "Inscrever-se",
   "signIn" : "Entrar",
   "logout" : "Sair",
+  "island_gallery" : "Galeria %s",
 
   "enter" : "Entrar",
 

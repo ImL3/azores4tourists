@@ -17,6 +17,18 @@ Meteor.startup(function () {
 });
 
 
+ServiceConfiguration.configurations.remove({
+     service: "facebook"
+});
+
+
+ServiceConfiguration.configurations.insert({
+     service: "facebook",
+     appId: '386463595164090',
+     secret: '163441c9f6d09e1f585cd31a650c13f3'
+});
+
+
 Meteor.methods({
      'submitPost': function ( title , body ){
 
