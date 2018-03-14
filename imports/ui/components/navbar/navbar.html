@@ -1,12 +1,15 @@
 <template name="navbar">
   <nav class="indigo">
-        <div class="nav-wrapper">
-              <ul id="nav-mobile" class="left">
-                  <!-- todo -->
-                  <div class="col s12 center"><li>{{> Auth}}</li></div>
-
-                  <li>{{> Lang}}</li>
-                  <li>{{_ 'Example'}}</li>
+        <div class="nav-wrapper container">
+              <ul id="nav-mobile" class="">
+                  <div class="col s6 left hide-on-med-and-down">
+                    <li class="left">
+                      <h5 class="center "> Welcome to <strong> azores4tourists!</strong> </h5>
+                    </li>
+                  </div>
+                  <li class="right">
+                    {{> Lang}}
+                  </li>
               </ul>
          </div>
    </nav>
