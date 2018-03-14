@@ -90,6 +90,7 @@ FlowRouter.route('/santamaria', {
 });
 
 
+
 FlowRouter.notFound = {
   action() {
     BlazeLayout.render('App_body', { main: 'App_notFound' });

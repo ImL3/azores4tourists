@@ -1,6 +1,5 @@
 import './terceira.html';
 
-import '../../components/header/header.js'
 import '../../components/thread/thread.js'
 
 Template.App_terceira.onCreated(function(){
