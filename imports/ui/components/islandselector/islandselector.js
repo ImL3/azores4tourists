@@ -8,6 +8,8 @@ Template.islandselector.onCreated(function navbarOnCreated() {
   //Loads the first island
   this.currentIslandSrc = new ReactiveVar("/img/terceira.png");
 
+  this.name = new ReactiveVar("terceira");
+
   //Loads the first island title
   this.title = new ReactiveVar("Terceira");
 
@@ -22,15 +24,21 @@ Template.islandselector.helpers({
     return Template.instance().title.get();
   },
 
+     name() {
+          return Template.instance().name.get();
+     },
+
   about() {
-    return Template.instance().title.get();
+    return Template.instance().about.get();
   },
 });
 
 Template.islandselector.events({
-  'click .island'(event, instance) {
-    let islandName = event.target.name;
+  'click .enter'(event, instance) {
+    let islandName = instance.currentIsland;
+    console.log(islandName);
     FlowRouter.go("/" + islandName );
+
   },
 
   'click .arrow-right'(event, instance) {
@@ -53,6 +61,7 @@ Template.islandselector.events({
     const currentIsland = instance.currentIsland;
     const currentIslandSrc = instance.currentIslandSrc;
     const currentTitle = instance.title;
+    const currentName = instance.name;
 
     if(currentIsland.get() === LAST_ISLAND) {
       currentIsland.set(FIRST_ISLAND);
@@ -63,6 +72,8 @@ Template.islandselector.events({
 
     currentIslandSrc.set(ISLANDS_PATH + '/' + ISLANDS[currentIsland.get()].name + "." + ISLANDS_EXTENSION);
     currentTitle.set( ISLANDS[currentIsland.get()].title);
+       currentName.set(ISLANDS[currentIsland.get()].name);
+       console.log("name:",currentName.get());
 
   },
 
